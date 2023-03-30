@@ -29,3 +29,11 @@ jobs:
       - name: Installing porject dependencies and test
         run: | 
           mvn clean test -DSuite_Name=${{ github.event.inputs.Suite_Name }}
+          
+      - name: Upload Artifact
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: Extend_report
+          path: ./report
+          retention-days: 5
