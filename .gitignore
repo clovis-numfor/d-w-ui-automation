@@ -3,6 +3,7 @@
 **/report
 **/.classpath
 **/.project
+**/.idea
 /bin/
 **/FailedTestsScreenshots
 **/test-output
