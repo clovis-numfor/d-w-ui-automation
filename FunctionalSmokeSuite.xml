@@ -14,15 +14,31 @@
 		</groups>
 		<classes>
 			<class name="Tests.CartPageTest" />
+			<class name="Tests.CategoryLandingPageTest" />
+			<class name="Tests.CheckoutBillingAddressPageTest" />
+			<class name="Tests.CheckoutLoginPageTest" />
+			<class name="Tests.CheckoutOrderConfirmationPageTest" />
+			<class name="Tests.CheckoutPaymentPageTest" />
+			<class name="Tests.CheckoutShippingAddreesPageTest" />
+			<class name="Tests.CheckoutSummaryPageTest" />
 			<class name="Tests.CreateAccountPageTest" />
+			<class name="Tests.FilterPageTest" />
+			<class name="Tests.FooterPageTest" />
+			<class name="Tests.HeaderPageTest" />
 			<class name="Tests.HomePageTest" />
 			<class name="Tests.LoginPageTest" />
 			<class name="Tests.MiniCartTest" />
 			<class name="Tests.MyCartDetailsTest" />
 			<class name="Tests.MyProfileAddressBookTest" />
 			<class name="Tests.MyProfileTest" />
+			<class name="Tests.OrderHistoryPageTest" />
 			<class name="Tests.PDPTest" />
+			<class name="Tests.ProductLandingPageTest" />
+			<class name="Tests.SearchPageTest" />
+			<class name="Tests.SideNavigationBarTest" />
+			<class name="Tests.StoreLocatorPageTest" />
 			<class name="Tests.TestForgotPasswordTest" />
+			<class name="Tests.WishlistPageTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
